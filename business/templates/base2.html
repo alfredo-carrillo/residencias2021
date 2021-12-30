@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}  {% endblock %}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/auth.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/chat.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/dripicons.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/email.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/error.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/widgets/chat.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/pages/todo.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/app.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'dist/assets/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/extensions/rater.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/extensions/sweetalert2.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/extensions/toastify.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/pages/bootstrap.bundle.min.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/pages/bootstrap.min.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/pages/main.js' %}">
+    <link rel="stylesheet" type="text/js" href="{% static 'dist/assets/js/pages/vendor.js' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/perfect-scrollbar/perfect-scrollbar.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/bootstrap-icons/bootstrap-icons.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'dist/assets/vendors/perfect-scrollbar/perfect-scrollbar.css' %}">
+    <link rel="stylesheet" href="{% static  'dist/assets/vendors/bootstrap-icons/bootstrap-icons.css' %}">
+    <link rel="shortcut icon" href="{% static 'dist/assets/images/favicon.svg' %}" type="image/x-icon">
+    
+</head>
+<body>
+    {% block content %}  {% endblock %}
+</body>
+</html>
